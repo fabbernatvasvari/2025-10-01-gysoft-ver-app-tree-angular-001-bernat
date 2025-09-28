@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Desktop", "Desktop\My
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Shared", "Shared\MyApp.Shared.csproj", "{2AADBC30-1276-F413-0F5C-77F8FC5DC893}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Mobile", "MyApp.Mobile\MyApp.Mobile.csproj", "{96DDBD45-AB24-4836-A962-CA525F6ACDB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{2AADBC30-1276-F413-0F5C-77F8FC5DC893}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AADBC30-1276-F413-0F5C-77F8FC5DC893}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AADBC30-1276-F413-0F5C-77F8FC5DC893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DDBD45-AB24-4836-A962-CA525F6ACDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DDBD45-AB24-4836-A962-CA525F6ACDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DDBD45-AB24-4836-A962-CA525F6ACDB7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{96DDBD45-AB24-4836-A962-CA525F6ACDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DDBD45-AB24-4836-A962-CA525F6ACDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DDBD45-AB24-4836-A962-CA525F6ACDB7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
