@@ -1,6 +1,6 @@
 ﻿namespace MyApp.Backend.Datas.Entities
 {
-    public interface IdbEntitiy<TEntity> where TEntity : class, new()
+    public interface IDbEntity<TEntity> where TEntity : class, new()
     {
         public string GetDbSetName() => new TEntity().GetType().Name;
         public Guid Id { get; set; }
