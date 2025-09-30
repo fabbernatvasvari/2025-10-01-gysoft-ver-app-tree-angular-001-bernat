@@ -11,8 +11,9 @@ namespace MyApp.Backend.Context
 
             List<Teacher> teachers = new List<Teacher>()
             {
-                new Teacher()
-            }
+                // new Teacher()
+
+            };
             
         }
     }
