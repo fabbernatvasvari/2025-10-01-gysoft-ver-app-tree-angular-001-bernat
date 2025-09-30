@@ -1,6 +1,6 @@
 export const getTeacherCount = async () => {
 	const res = await fetch(
-		`${import.meta.env.VITE_BACKEND_URL}/api/Teachers/count`,
+		`${import.meta.env.VITE_BACKEND_URL}/api/Teacher/count`,
 		{
 			headers: {
 				"Content-Type": "application/json",

@@ -33,7 +33,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 // Cors
-app.UseCors("KretaCors");
+app.UseCors("MyAppCors");
 
 app.UseAuthorization();
 

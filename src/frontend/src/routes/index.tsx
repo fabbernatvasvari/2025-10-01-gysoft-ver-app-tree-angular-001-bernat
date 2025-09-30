@@ -17,7 +17,7 @@ function Index() {
 
 	return (
 		<div className="p-2">
-			<h3>Teacher count: {data?.count}</h3>
+			<h3>Teacher count: {data}</h3>
 		</div>
 	);
 }
