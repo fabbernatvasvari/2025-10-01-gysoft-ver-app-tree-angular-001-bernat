@@ -11,10 +11,10 @@ namespace MyApp.Backend.Context
 
             List<Teacher> teachers = new List<Teacher>()
             {
-                // new Teacher()
-
+                new Teacher(){Name="Teszt Elek"},
+                new Teacher(){Name="Teszt Eszter"}
             };
-            
+            modelBuilder.Entity<Teacher>().HasData(teachers);
         }
     }
 }
