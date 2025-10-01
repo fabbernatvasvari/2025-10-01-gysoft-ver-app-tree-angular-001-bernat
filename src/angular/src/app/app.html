@@ -217,14 +217,8 @@
       } @else {
       <label for="teacher-select">Tanár kiválasztása</label>
         <br />
-      <!-- <select name="teachers" id="teacher-select">
-        <option value="null" disabled selected>-- Kérlek, válaszd ki a következő tanárt! --</option>
-        @for (teacher of student.teachers; track teacher.id) {
-        <option value="teacher.id">{{ teacher.id + ' ' + teacher.name }}</option>
-        } @empty {
-          <option disabled value="404">Nem találtunk egy tanárt sem</option>
-        }
-      </select> -->
+
+        
       <select name="teachernames" id="teachername-select">
         <option value="null" disabled selected>-- Kérlek, válaszd ki a következő tanár nevét! --</option>
         @for (teacherName of teacherNames; track teacherName) {

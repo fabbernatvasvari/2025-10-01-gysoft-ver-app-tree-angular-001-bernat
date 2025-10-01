@@ -1,5 +1,8 @@
 {
-    "defaultPort": "ng serve --port 4200",
-    "duplicate": "ng serve --port 4201",
-    "samePort": "ng serve --port 7120"
+    "runConfigs": {
+        "defaultPort": "ng serve --port 4200",
+        "duplicate": "ng serve --port 4201",
+        "samePort": "ng serve --port 7120"
+    },
+    "urlWithPath": "https://localhost:7120/api/Teacher/count"
 }
