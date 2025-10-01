@@ -1,3 +1,5 @@
 {
-    "runConfig": "ng serve --port 7120"
+    "defaultPort": "ng serve --port 4200",
+    "duplicate": "ng serve --port 4201",
+    "samePort": "ng serve --port 7120"
 }
