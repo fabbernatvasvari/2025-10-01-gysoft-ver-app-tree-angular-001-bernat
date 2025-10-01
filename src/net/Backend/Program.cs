@@ -33,7 +33,13 @@ using (var scope = app.Services.CreateAsyncScope())
     var dbContext = scope.ServiceProvider.GetRequiredService<AppInMemoryContext>();
 
     // InMemory test data
+    try
+    {
     dbContext.Database.EnsureCreated();
+    } catch (System.InvalidOperationException)
+    {
+        Console.Error.WriteLine("System.InvalidOperationException: 'The seed entity for entity type 'Teacher' cannot be added because a default value was provided for the required property 'Id'. Please provide a value different from '00000000-0000-0000-0000-000000000000'.'");
+    }
 }
 
 // Configure the HTTP request pipeline.
