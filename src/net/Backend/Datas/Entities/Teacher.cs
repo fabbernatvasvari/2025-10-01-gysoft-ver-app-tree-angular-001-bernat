@@ -13,11 +13,15 @@ namespace MyApp.Backend.Datas.Entities
             Id = id;
             Name= name;
         }
-        public  Teacher() { }
         public Teacher(string name)
         {
             Id = Guid.NewGuid();
             Name = name;
+        }
+        public Teacher()
+        {
+            Id = Guid.NewGuid();
+            Name = string.Empty;
         }
     }
 }
