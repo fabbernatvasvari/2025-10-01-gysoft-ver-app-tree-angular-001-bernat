@@ -48,7 +48,15 @@ export class App implements OnInit{
     this.teacherNames = [...this.teacherNames, ...this.teacher.getAllRandomNames()]
   }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    this.teacherService?.getTeacherCount().subscribe({
+      next: (count) => {
+        this.teacherCount = count;
+        console.log('Teacher count:', count);
+      },
+      error: (error) => {
+        console.error('Error fetching teacher count:', error);
+      }
+    });
   }
 
 

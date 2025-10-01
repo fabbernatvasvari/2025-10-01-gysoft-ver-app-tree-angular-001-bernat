@@ -1,0 +1,3 @@
+{
+    "runConfig": "ng serve --port 7120"
+}
