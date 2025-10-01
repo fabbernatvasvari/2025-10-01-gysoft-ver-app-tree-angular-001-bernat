@@ -25,6 +25,10 @@ export class Teacher {
   getAllRandomNames(){
     return randomNames;
   }
+
+  public toString = () : string => {
+        return `Teacher (id: ${this.id}, name: ${this.name})`;
+    }
 }
 
 const randomNames: string[] = [
@@ -37,4 +41,5 @@ const randomNames: string[] = [
   function randomName(): string {
   const index = Math.floor(Math.random() * randomNames.length);
   return randomNames[index];
+  
 }

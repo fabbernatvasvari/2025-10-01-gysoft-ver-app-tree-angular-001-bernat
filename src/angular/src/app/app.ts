@@ -22,16 +22,16 @@ export class App {
     this.student = new Student();
     this.teacher = new Teacher();
     this.student.name = Database.getName();
-    this.student.teachers = Database.getTeachers().map(name => {
+    this.student.teachers = Database.getTeachers().map(currentTeacher => {
       const teacher = new Teacher();
-      teacher.name = name.toString();
+      console.log(teacher);
+      teacher.name = currentTeacher.toString();
       return teacher;
     });
 
     for (const teacher of this.student.teachers){
       this.teacherNames.push(teacher.name);
     }
-
     this.teacherNames = [...this.teacherNames, ...this.teacher.getAllRandomNames()]
   }
 
