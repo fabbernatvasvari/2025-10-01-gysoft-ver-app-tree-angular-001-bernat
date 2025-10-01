@@ -30,11 +30,10 @@ export class App implements OnInit{
   teacherService: TeacherService | null = null;
   
   
-  constructor() {
+  constructor(private teacherServiceInjected: TeacherService){
     this.student = new Student();
     this.teacher = new Teacher();
     this.student.name = Database.getName();
-    this.teacherService = new TeacherService(Object as any);
     this.student.teachers = Database.getTeachers().map(currentTeacher => {
       const teacher = new Teacher();
       console.log(teacher);
@@ -47,8 +46,10 @@ export class App implements OnInit{
     }
     this.teacherNames = [...this.teacherNames, ...this.teacher.getAllRandomNames()]
   }
+
+
   ngOnInit(): void {
-    this.teacherService?.getTeacherCount().subscribe({
+    this.teacherServiceInjected.getTeacherCount().subscribe({
       next: (count) => {
         this.teacherCount = count;
         console.log('Teacher count:', count);

@@ -228,7 +228,9 @@
         }
       </select>
       <br>
-      <div>A tanárok száma: {{ MakeHttpRequestToEndPoint("https://localhost:7120/api/Teacher/count") }} fő.</div>
+      <!-- <div>A tanárok száma (hardcoded): {{ MakeHttpRequestToEndPoint("https://localhost:7120/api/Teacher/count") }} fő.</div> -->
+      <h1>A tanárok száma: {{ teacherCount }} fő.</h1>
+      
     }
       
       
