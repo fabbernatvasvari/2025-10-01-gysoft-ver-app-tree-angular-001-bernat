@@ -50,4 +50,8 @@ export class App {
   onTeacherChange($event: Event) {
   throw new Error('Method not implemented.');
   }
+
+  MakeHttpRequestToEndPoint(arg0: string) {
+    return arg0;
+  }
 }

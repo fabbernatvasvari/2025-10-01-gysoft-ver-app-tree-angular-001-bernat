@@ -234,7 +234,7 @@
         }
       </select>
       <br>
-      <div>A tanárok száma: {{ teacherServiceAccessor.toString() }} fő.</div>
+      <div>A tanárok száma: {{ MakeHttpRequestToEndPoint("https://localhost:7120/api/Teacher/count") }} fő.</div>
     }
       
       

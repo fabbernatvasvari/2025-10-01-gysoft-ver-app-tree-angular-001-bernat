@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Options;
 using MyApp.Backend.Context;
 using MyApp.Backend.Extensions;
 
@@ -11,6 +13,17 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddBackend();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("KretaCors",
+            policy =>
+            {
+                policy.WithOrigins("http://localhost:4200")
+                      .AllowAnyHeader()
+                      .AllowAnyMethod();
+            });
+});
 
 var app = builder.Build();
 
@@ -33,7 +46,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 // Cors
-app.UseCors("KretaCors");
+app.UseCors("KretaCors"); // "AllowFrontendApp" vagy "AllowForeignOrigin" jobb név lenne a paraméternek
 
 app.UseAuthorization();
 

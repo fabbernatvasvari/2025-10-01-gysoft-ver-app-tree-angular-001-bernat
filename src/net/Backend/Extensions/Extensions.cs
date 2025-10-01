@@ -18,7 +18,7 @@ namespace MyApp.Backend.Extensions
         {
 
             services.AddCors(option =>
-                 option.AddPolicy(name: "MyAppCors",
+                 option.AddPolicy(name: "KretaCors",
                      policy =>
                      {
                          policy.WithOrigins("https://localhost:7020/")
