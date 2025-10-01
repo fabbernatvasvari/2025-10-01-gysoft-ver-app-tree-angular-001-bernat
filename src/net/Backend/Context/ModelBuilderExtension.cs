@@ -12,7 +12,8 @@ namespace MyApp.Backend.Context
             List<Teacher> teachers = new List<Teacher>()
             {
                 new Teacher(){Name="Teszt Elek"},
-                new Teacher(){Name="Teszt Eszter"}
+                new Teacher(){Name="Teszt Eszter"},
+                new Teacher(){Name="Teszt Aladár"}
             };
             modelBuilder.Entity<Teacher>().HasData(teachers);
         }

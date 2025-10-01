@@ -119,20 +119,5 @@ namespace MyApp.Backend.Repo.Base
             response.AppendNewError($"{entity} osztály hozzáadása az adatbázishoz nem sikerült!");
             return response;
         }
-
-        Task<Azure.Response> IBaseRepo<TEntity>.CreateAsync(TEntity entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<Azure.Response> IBaseRepo<TEntity>.UpdateAsync(TEntity entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<Azure.Response> IBaseRepo<TEntity>.DeleteAsync(Guid id)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
