@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Student } from './student/student';
 import { Database } from './database/database';
@@ -19,12 +19,17 @@ import { NgModule } from '@angular/core';
   templateUrl: './app.html',
   styleUrl: './app.sass',
 })
-export class App {
+export class App implements OnInit{
   protected readonly title = signal('Vasvári Tanár Értekelő Rendszer');
+  
+  
+  teacherCount: number | null = null;
   student: Student;
   teacher: Teacher;
   teacherNames: string[] = [];
   teacherService: TeacherService | null = null;
+  
+  
   constructor() {
     this.student = new Student();
     this.teacher = new Teacher();
@@ -42,15 +47,21 @@ export class App {
     }
     this.teacherNames = [...this.teacherNames, ...this.teacher.getAllRandomNames()]
   }
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
+
 
   public teacherServiceAccessor(): TeacherService {
     return this.teacherService??(new TeacherService(Object as any));
   }
 
+
   onTeacherChange($event: Event) {
   throw new Error('Method not implemented.');
   }
 
+  
   MakeHttpRequestToEndPoint(arg0: string) {
     return arg0;
   }

@@ -1,7 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'; // ✅
+import { Observable } from 'rxjs';
 
-
+@Injectable({
+  providedIn: 'root'
+})
 export class TeacherService {
    private apiUrl = 'https://localhost:7120/api/Teacher';
 
