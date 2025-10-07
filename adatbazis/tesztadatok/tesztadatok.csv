@@ -1,0 +1,529 @@
+Osztály;Csoport;Tantárgy;Óraszám;TanárNevek
+10.a;10.-felzárkóztató;Matematika;1;Jázmin Lilla
+10.b;10.-felzárkóztató;Matematika;1;Jázmin Lilla
+10.c;10.-felzárkóztató;Matematika;1;Jázmin Lilla
+10.a;10.-tehetség;Angol nyelv;1;Levendula Noémi
+10.b;10.-tehetség;Angol nyelv;1;Levendula Noémi
+10.c;10.-tehetség;Angol nyelv;1;Levendula Noémi
+11.a;11.abc-mat-em-1;Emelt szintű matematika;2;Közismeret Károly
+11.b;11.abc-mat-em-1;Emelt szintű matematika;2;Közismeret Károly
+11.c;11.abc-mat-em-1;Emelt szintű matematika;2;Közismeret Károly
+11.a;11.abc-mat-em-2;Emelt szintű matematika;2;Közismeret Károly
+11.b;11.abc-mat-em-2;Emelt szintű matematika;2;Közismeret Károly
+11.c;11.abc-mat-em-2;Emelt szintű matematika;2;Közismeret Károly
+11.a;11.abc-tört-em;Emelt szintű történelem;2;Közismeret Károly
+11.b;11.abc-tört-em;Emelt szintű történelem;2;Közismeret Károly
+11.c;11.abc-tört-em;Emelt szintű történelem;2;Közismeret Károly
+11.a;11.-felzárkóztató;Asztali alkalmazások fejlesztése;1;Jázmin János
+11.b;11.-felzárkóztató;Asztali alkalmazások fejlesztése;1;Jázmin János
+11.c;11.-felzárkóztató;Asztali alkalmazások fejlesztése;1;Jázmin János
+11.a;11.-tehetség;Fizika;1;Kardvirág Kata
+11.b;11.-tehetség;Fizika;1;Kardvirág Kata
+11.c;11.-tehetség;Fizika;1;Kardvirág Kata
+11.a;11-12.-fejl-SNI;Fejlesztő foglalkozás;2;Gesztenye Gréta
+11.b;11-12.-fejl-SNI;Fejlesztő foglalkozás;2;Gesztenye Gréta
+11.c;11-12.-fejl-SNI;Fejlesztő foglalkozás;2;Gesztenye Gréta
+12.a;11-12.-fejl-SNI;Fejlesztő foglalkozás;2;Gesztenye Gréta
+12.b;11-12.-fejl-SNI;Fejlesztő foglalkozás;2;Gesztenye Gréta
+12.c;11-12.-fejl-SNI;Fejlesztő foglalkozás;2;Gesztenye Gréta
+12.a;12.abc-ang-em;Emelt szintű angol nyelv;2;Közismeret Károly
+12.b;12.abc-ang-em;Emelt szintű angol nyelv;2;Közismeret Károly
+12.c;12.abc-ang-em;Emelt szintű angol nyelv;2;Közismeret Károly
+12.a;12.abc-mat-em;Emelt szintű matematika;2;Jázmin Lilla
+12.b;12.abc-mat-em;Emelt szintű matematika;2;Jázmin Lilla
+12.c;12.abc-mat-em;Emelt szintű matematika;2;Jázmin Lilla
+12.a;12.a-ér-magy;Irodalom;1;Gyöngyvirág Gréta
+12.a;12.a-ér-tört;Történelem;1;Répa Róbert
+12.b;12.b-ér-magy;Irodalom;1;Hárs Hajnalka
+12.b;12.b-ér-tört;Történelem;1;Datolya Dóra
+12.c;12.c-ér-magy;Irodalom;1;Juhar János
+12.c;12.c-ér-tört;Történelem;1;Répa Róbert
+12.a;12.-felzárkóztató;Szövegbevitel számítógépen;1;Tölgy Tibor
+12.b;12.-felzárkóztató;Szövegbevitel számítógépen;1;Tölgy Tibor
+12.c;12.-felzárkóztató;Szövegbevitel számítógépen;1;Tölgy Tibor
+12.a;12.-tehetség;Szövegbevitel számítógépen;1;Füge Hajnalka
+12.b;12.-tehetség;Szövegbevitel számítógépen;1;Füge Hajnalka
+12.c;12.-tehetség;Szövegbevitel számítógépen;1;Füge Hajnalka
+13.a;13.abc-angem;Emelt szintű angol nyelv;2;Mandula Ottó
+13.b;13.abc-angem;Emelt szintű angol nyelv;2;Mandula Ottó
+13.c;13.abc-angem;Emelt szintű angol nyelv;2;Mandula Ottó
+13.a;13.abc-egymat;Egyetemi felkészítő matematikából;2;Közismeret Károly
+13.b;13.abc-egymat;Egyetemi felkészítő matematikából;2;Közismeret Károly
+13.c;13.abc-egymat;Egyetemi felkészítő matematikából;2;Közismeret Károly
+13.a;13.abc-matem;Emelt szintű matematika;2;Ibolya Kata
+13.b;13.abc-matem;Emelt szintű matematika;2;Ibolya Kata
+13.c;13.abc-matem;Emelt szintű matematika;2;Ibolya Kata
+13.a;13.abc-törtem;Emelt szintű történelem;1;Közismeret Károly
+13.b;13.abc-törtem;Emelt szintű történelem;1;Közismeret Károly
+13.c;13.abc-törtem;Emelt szintű történelem;1;Közismeret Károly
+13.a;13.abc-törtem;Emelt szintű történelem;1;Datolya Dóra
+13.b;13.abc-törtem;Emelt szintű történelem;1;Datolya Dóra
+13.c;13.abc-törtem;Emelt szintű történelem;1;Datolya Dóra
+13.a;13.abc-vizkult-1;Vizuális kultúra;2;Páfrány Sarolta
+13.b;13.abc-vizkult-1;Vizuális kultúra;2;Páfrány Sarolta
+13.c;13.abc-vizkult-1;Vizuális kultúra;2;Páfrány Sarolta
+13.a;13.abc-vizkult-2;Vizuális kultúra;2;Páfrány Sarolta
+13.b;13.abc-vizkult-2;Vizuális kultúra;2;Páfrány Sarolta
+13.c;13.abc-vizkult-2;Vizuális kultúra;2;Páfrány Sarolta
+13.a;13.-felzárkóztató;Angol nyelv;1;Levendula Noémi
+13.b;13.-felzárkóztató;Angol nyelv;1;Levendula Noémi
+13.c;13.-felzárkóztató;Angol nyelv;1;Levendula Noémi
+13.a;13.-tehetség;Backend programozás és tesztelés;1;Vadrózsa Andor
+13.b;13.-tehetség;Backend programozás és tesztelés;1;Vadrózsa Andor
+13.c;13.-tehetség;Backend programozás és tesztelés;1;Vadrózsa Andor
+14.febr;2/14.-felzárkóztató;Angol nyelv;1;Levendula Noémi
+14.febr;2/14.-tehetség;Szövegbevitel számítógépen;1;Tölgy Tibor
+9.a;9.-felzárkóztató;Angol nyelv;1;Bodza Bálint
+9.b;9.-felzárkóztató;Angol nyelv;1;Bodza Bálint
+9.c;9.-felzárkóztató;Angol nyelv;1;Bodza Bálint
+9/NY;9.-felzárkóztató;Angol nyelv;1;Bodza Bálint
+9.a;9.-tehetség;Angol nyelv;1;Levendula Lilla
+9.b;9.-tehetség;Angol nyelv;1;Levendula Lilla
+9.c;9.-tehetség;Angol nyelv;1;Levendula Lilla
+9/NY;9.-tehetség;Angol nyelv;1;Levendula Lilla
+9.a;9-10.abc-test-tánc;Testnevelés (mindennapos_tánc);2;Tánc Teréz
+9.b;9-10.abc-test-tánc;Testnevelés (mindennapos_tánc);2;Tánc Teréz
+9.c;9-10.abc-test-tánc;Testnevelés (mindennapos_tánc);2;Tánc Teréz
+9/NY;9-10.abc-test-tánc;Testnevelés (mindennapos_tánc);2;Tánc Teréz
+9.a;9-10.-fejl-SNI;Fejlesztő foglalkozás;2;Gesztenye Gréta
+9.b;9-10.-fejl-SNI;Fejlesztő foglalkozás;2;Gesztenye Gréta
+9.c;9-10.-fejl-SNI;Fejlesztő foglalkozás;2;Gesztenye Gréta
+9/NY;9-10.-fejl-SNI;Fejlesztő foglalkozás;2;Gesztenye Gréta
+;BTMN-1;Fejlesztő foglalkozás;1;Zsálya Bálint
+;BTMN-2;Fejlesztő foglalkozás;1;Zsálya Bálint
+;DSK(BHA);Testnevelés;2;Kökény Kata
+;DSK(DE);Testnevelés;2;Páfrány Piroska
+1/13.a váll;;Adózási ismeretek;1;Gazdaság Gábor
+1/13.a váll;;Dokumentumszerkesztés;1;Gazdaság Gellért
+1/13.a váll;;Gazdasági és jogi alapismeretek;2,5;Gazdaság Gábor
+1/13.a váll;;Gazdasági és jogi alapismeretek (al);2;Gazdaság Gábor
+1/13.a váll;;Kis- és középvállalkozások gazdálkodása;1;Gazdaság Gábor
+1/13.a váll;;Kommunikáció;1,5;Liliom Lilla
+1/13.a váll;;Kommunikáció a titkári munkában;2,5;Liliom Lilla
+1/13.a váll;;Könyvvezetési alapismeretek;1;Gazdaság Gellért
+1/13.a váll;;Munkaerő-gazdálkodás;2;Gazdaság Gábor
+1/13.a váll;;Munkavállalói ismeretek gazd;0,5;Gazdaság Gellért
+1/13.a váll;;Szövegbevitel számítógépen;1;Gazdaság Gábor
+1/13.a váll;;Titkári ügyintézés;1,5;Gazdaság Gábor
+1/13.a váll;;Ügyfélszolgálati kommunikáció;2;Gazdaság Gábor
+1/13.a váll;;Üzleti adminisztráció;3,5;Gazdaság Gábor
+1/13.a váll;;Vállalkozások működtetésének alapismeretei;5;Gazdaság Gábor
+1/13.a váll;1/13.a váll csop1;Digitális alkalmazások gazd;3,5;Tölgy Tibor
+1/13.a váll;1/13.a váll csop1;Digitális alkalmazások gazd (inf);1,5;Páfrány Sarolta
+1/13.a váll;1/13.a váll csop1;Szakmai idegen nyelv;2;Gazdaság Gellért
+1/13.a váll;1/13.a váll csop2;Digitális alkalmazások gazd;3,5;Tölgy Tibor
+1/13.a váll;1/13.a váll csop2;Digitális alkalmazások gazd (inf);1,5;Páfrány Sarolta
+1/13.a váll;1/13.a váll csop2;Szakmai idegen nyelv;2;Menta Miklós
+10.a;;Földrajz;2;Áfonya Andor
+10.a;;Gazdasági és jogi alapismeretek;3;Eper Gréta
+10.a;;Irodalom;3;Hárs Hajnalka
+10.a;;Magyar nyelv;2;Hárs Hajnalka
+10.a;;Osztályfőnöki;1;Őszirózsa Ottó
+10.a;;Pénzügyi és vállalkozói ismeretek;1;Eper Gréta
+10.a;;Testnevelés;2;Páfrány Piroska
+10.a;;Testnevelés (mindennapos);2;Páfrány Piroska
+10.a;;Történelem;3;Datolya Dóra
+10.a;;Vállalkozások működtetésének alapismeretei;2,5;Őszirózsa Ottó
+10.a;;Vállalkozások működtetésének alapismeretei (al);1,5;Citrom Csilla
+10.a;10.a-haladó;Angol nyelv;4;Narancs Piroska
+10.a;10.a-haladó;Digitális alkalmazások gazd;1,5;Tölgy Tibor
+10.a;10.a-haladó;Digitális alkalmazások gazd (inf);0,5;Páfrány Sarolta
+10.a;10.a-haladó;Digitális kultúra;1;Páfrány Sarolta
+10.a;10.a-haladó;Matematika;4;Jázmin Lilla
+10.a;10.a-kezdő;Angol nyelv;4;Som Sarolta
+10.a;10.a-kezdő;Digitális alkalmazások gazd;1,5;Füge Hajnalka
+10.a;10.a-kezdő;Digitális alkalmazások gazd (inf);0,5;Páfrány Sarolta
+10.a;10.a-kezdő;Digitális kultúra;1;Orgona Ottó
+10.a;10.a-kezdő;Matematika;4;Pünkösdi Piroska
+10.b;;Fizika;2;Kardvirág Kata
+10.b;;Irodalom;3;Juhar János
+10.b;;Magyar nyelv;2;Juhar János
+10.b;;Osztályfőnöki;1;Gesztenye Imre
+10.b;;Pénzügyi és vállalkozói ismeretek;1;Őszirózsa Ottó
+10.b;;Testnevelés;2;Kökény Kata
+10.b;;Testnevelés (mindennapos);2;Kökény Kata
+10.b;;Történelem;3;Gyöngyvirág Gréta
+10.b;10.b-haladó;Angol nyelv;4;Gesztenye Imre
+10.b;10.b-haladó;Digitális kultúra;1;Páfrány Sarolta
+10.b;10.b-haladó;IKT projektmunka I.;2;Orgona Ottó
+10.b;10.b-haladó;IKT projektmunka I. (webgyak);1;Egérfarkfű Elemér
+10.b;10.b-haladó;Informatikai és távközlési alapok II.;3;Egérfarkfű Elemér
+10.b;10.b-haladó;Informatikai és távközlési alapok II. (Linux);1;Mandula Miklós
+10.b;10.b-haladó;Matematika;4;Nyír Noémi
+10.b;10.b-haladó;Programozási alapok;2;Orgona Ottó
+10.b;10.b-kezdő;Angol nyelv;4;Gesztenye Imre
+10.b;10.b-kezdő;Digitális kultúra;1;Orgona Ottó
+10.b;10.b-kezdő;IKT projektmunka I.;2;Informatika István
+10.b;10.b-kezdő;IKT projektmunka I. (webgyak);1;Cseresznye Elemér
+10.b;10.b-kezdő;Informatikai és távközlési alapok II.;3;Mandula Miklós
+10.b;10.b-kezdő;Informatikai és távközlési alapok II. (Linux);1;Mandula Miklós
+10.b;10.b-kezdő;Matematika;4;Pünkösdi Piroska
+10.b;10.b-kezdő;Programozási alapok;2;Kökény Miklós
+10.c;;Irodalom;3;Gyöngyvirág Gréta
+10.c;;Magyar nyelv;1;Gyöngyvirág Gréta
+10.c;;Osztályfőnöki;1;Gyöngyvirág Gréta
+10.c;;Pénzügyi és vállalkozói ismeretek;1;Őszirózsa Ottó
+10.c;;Testnevelés;2;Páfrány Piroska
+10.c;;Testnevelés (mindennapos);2;Páfrány Piroska
+10.c;;Történelem;3;Datolya Dóra
+10.c;10.c-haladó;Angol nyelv;4;Mandula Ottó
+10.c;10.c-haladó;Német nyelv;2;Liliom Lilla
+10.c;10.c-inf;Fizika;2;Kardvirág Kata
+10.c;10.c-inf;IKT projektmunka I.;2;Vadrózsa Andor
+10.c;10.c-inf;IKT projektmunka I. (webgyak);1;Egérfarkfű Elemér
+10.c;10.c-inf;Informatikai és távközlési alapok II.;3;Egérfarkfű Elemér
+10.c;10.c-inf;Informatikai és távközlési alapok II. (Linux);1;Informatika István
+10.c;10.c-inf;Matematika;4;Nyír Noémi
+10.c;10.c-inf;Programozási alapok;2;Vadrózsa Andor
+10.c;10.c-ker;Digitális alkalmazások ker;1,5;Füge Hajnalka
+10.c;10.c-ker;Digitális alkalmazások ker (inf);0,5;Páfrány Sarolta
+10.c;10.c-ker;Földrajz;2;Áfonya Andor
+10.c;10.c-ker;Gazdasági ismeretek;3;Eper Gréta
+10.c;10.c-ker;Kommunikáció;2;Barack Dóra
+10.c;10.c-ker;Matematika;4;Jázmin Lilla
+10.c;10.c-ker;Vállalkozások működtetése;2;Citrom Csilla
+10.c;10.c-kezdő;Angol nyelv;4;Narancs Piroska
+10.c;10.c-kezdő;Német nyelv;2;Liliom Lilla
+11.a;;Adózási ismeretek;1;Őszirózsa Ottó
+11.a;;Földrajz;2;Áfonya Andor
+11.a;;Irodalom;3;Hárs Hajnalka
+11.a;;Kis- és középvállalkozások gazdálkodása;2;Eper Gréta
+11.a;;Kommunikáció a titkári munkában;1;Barack Dóra
+11.a;;Magyar nyelv;1;Közismeret Károly
+11.a;;Osztályfőnöki;1;Hárs Hajnalka
+11.a;;Portfólió összeállítása;0,5;Áfonya Andor
+11.a;;Testnevelés;3;Páfrány Piroska
+11.a;;Titkári ügyintézés;1,5;Barack Dóra
+11.a;;Történelem;3;Répa Róbert
+11.a;;Ügyfélszolgálati kommunikáció;2;Barack Dóra
+11.a;;Üzleti adminisztráció;3;Őszirózsa Ottó
+11.a;11.a-haladó;Angol nyelv;3;Gesztenye Imre
+11.a;11.a-haladó;Digitális kultúra;1;Páfrány Sarolta
+11.a;11.a-haladó;Dokumentumszerkesztés;1;Tölgy Tibor
+11.a;11.a-haladó;Matematika;3;Pünkösdi Piroska
+11.a;11.a-haladó;Szövegbevitel számítógépen;2;Tölgy Tibor
+11.a;11.a-kezdő;Angol nyelv;3;Levendula Lilla
+11.a;11.a-kezdő;Digitális kultúra;1;Orgona Ottó
+11.a;11.a-kezdő;Dokumentumszerkesztés;1;Füge Hajnalka
+11.a;11.a-kezdő;Matematika;3;Ibolya Kata
+11.a;11.a-kezdő;Szövegbevitel számítógépen;2;Füge Hajnalka
+11.b;;Fizika;2;Kardvirág Kata
+11.b;;Irodalom;3;Gyöngyvirág Gréta
+11.b;;Magyar nyelv;1;Gyöngyvirág Gréta
+11.b;;Osztályfőnöki;1;Répa Róbert
+11.b;;Testnevelés;3;Kökény Kata
+11.b;;Történelem;3;Répa Róbert
+11.b;11.b-haladó;Adatbázis-kezelés I.;2;Nyír Noémi
+11.b;11.b-haladó;Angol nyelv;3;Bodza Bálint
+11.b;11.b-haladó;Asztali alkalmazások fejlesztése;4;Kökény Miklós
+11.b;11.b-haladó;Digitális kultúra;1;Páfrány Sarolta
+11.b;11.b-haladó;IKT projektmunka II.;2,5;Kökény Miklós
+11.b;11.b-haladó;IKT projektmunka II. (dok);0,5;Vadrózsa Andor
+11.b;11.b-haladó;Matematika;3;Pünkösdi Piroska
+11.b;11.b-haladó;Szakmai angol;3;Mandula Ottó
+11.b;11.b-haladó;Webprogramozás;1;Cseresznye Elemér
+11.b;11.b-haladó;Webprogramozás (web haladó);1;Egérfarkfű Elemér
+11.b;11.b-kezdő;Adatbázis-kezelés I.;2;Ibolya Imre
+11.b;11.b-kezdő;Angol nyelv;3;Som Sarolta
+11.b;11.b-kezdő;Asztali alkalmazások fejlesztése;4;Jázmin János
+11.b;11.b-kezdő;Digitális kultúra;1;Páfrány Sarolta
+11.b;11.b-kezdő;IKT projektmunka II.;2,5;Informatika István
+11.b;11.b-kezdő;IKT projektmunka II. (dok);0,5;Vadrózsa Andor
+11.b;11.b-kezdő;Matematika;3;Jázmin Lilla
+11.b;11.b-kezdő;Szakmai angol;3;Narancs Noémi
+11.b;11.b-kezdő;Webprogramozás;1;Cseresznye Elemér
+11.b;11.b-kezdő;Webprogramozás (web haladó);1;Egérfarkfű Elemér
+11.c;;Irodalom;3;Juhar János
+11.c;;Magyar nyelv;1;Juhar János
+11.c;;Osztályfőnöki;1;Egérfarkfű Elemér
+11.c;;Testnevelés;3;Kökény Kata
+11.c;;Történelem;2;Datolya Dóra
+11.c;11.c-haladó;Angol nyelv;3;Gesztenye Imre
+11.c;11.c-haladó;Német nyelv;1;Közismeret Károly
+11.c;11.c-haladó;Német nyelv;1;Juhar János
+11.c;11.c-inf;Adatbázis-kezelés I.;2;Nyír Noémi
+11.c;11.c-inf;Asztali alkalmazások fejlesztése;4;Mandula Miklós
+11.c;11.c-inf;Fizika;2;Kardvirág Kata
+11.c;11.c-inf;IKT projektmunka II.;2,5;Mandula Miklós
+11.c;11.c-inf;IKT projektmunka II. (dok);0,5;Vadrózsa Andor
+11.c;11.c-inf;Matematika;3;Homoktövis János
+11.c;11.c-inf;Szakmai angol;3;Som Sarolta
+11.c;11.c-inf;Webprogramozás;1;Cseresznye Elemér
+11.c;11.c-inf;Webprogramozás (web haladó);1;Egérfarkfű Elemér
+11.c;11.c-ker;Földrajz;2;Áfonya Andor
+11.c;11.c-ker;Közlekedésföldrajz;1,5;Áfonya Andor
+11.c;11.c-ker;Marketing alapjai;4;Fenyő Ferenc
+11.c;11.c-ker;Matematika;3;Ibolya Kata
+11.c;11.c-ker;Raktározási alapismeretek;3;Fenyő Ferenc
+11.c;11.c-ker;Speciális áruk raktározása;2;Szilva Sarolta
+11.c;11.c-ker;Szóbeli üzleti kommunikáció idegen nyelven;1,5;Gesztenye Imre
+11.c;11.c-ker;Üzleti levelezés idegen nyelven;1;Narancs Piroska
+11.c;11.c-ker;Vezetési ismeretek;1;Fenyő Ferenc
+11.c;11.c-kezdő;Angol nyelv;3;Levendula Lilla
+11.c;11.c-kezdő;Német nyelv;2;Levendula Noémi
+12.a;;Adózási ismeretek;1,5;Őszirózsa Ottó
+12.a;;Állampolgári ismeretek;1;Répa Róbert
+12.a;;Irodalom;3;Gyöngyvirág Gréta
+12.a;;Kis- és középvállalkozások gazdálkodása;1;Eper Gréta
+12.a;;Kommunikáció a titkári munkában;1;Barack Dóra
+12.a;;Könyvvezetési alapismeretek;1;Eper Gréta
+12.a;;Magyar nyelv;1;Gyöngyvirág Gréta
+12.a;;Munkaerő-gazdálkodás;2;Áfonya Andor
+12.a;;Osztályfőnöki;1;Kardvirág Kata
+12.a;;Portfólió összeállítása;1;Áfonya Andor
+12.a;;Testnevelés;3;Kökény Kata
+12.a;;Titkári ügyintézés;1;Barack Dóra
+12.a;;Történelem;4;Répa Róbert
+12.a;;Üzleti adminisztráció;1,5;Őszirózsa Ottó
+12.a;12.a-ér-mat-haladó;Matematika;1;Nyír Noémi
+12.a;12.a-ér-mat-kezdő;Matematika;1;Jázmin Lilla
+12.a;12.a-haladó;Angol nyelv;3;Som Sarolta
+12.a;12.a-haladó;Dokumentumszerkesztés;3;Füge Hajnalka
+12.a;12.a-haladó;Matematika;4;Nyír Noémi
+12.a;12.a-haladó;Szövegbevitel számítógépen;1;Füge Hajnalka
+12.a;12.a-kezdő;Angol nyelv;3;Levendula Noémi
+12.a;12.a-kezdő;Dokumentumszerkesztés;3;Tölgy Tibor
+12.a;12.a-kezdő;Matematika;4;Jázmin Lilla
+12.a;12.a-kezdő;Szövegbevitel számítógépen;1;Tölgy Tibor
+12.b;;Állampolgári ismeretek;1;Datolya Dóra
+12.b;;Irodalom;3;Hárs Hajnalka
+12.b;;Magyar nyelv;1;Hárs Hajnalka
+12.b;;Osztályfőnöki;1;Narancs Noémi
+12.b;;Szoftvertesztelés;2;Viola Zoltán
+12.b;;Testnevelés;3;Páfrány Piroska
+12.b;;Történelem;4;Datolya Dóra
+12.b;12.b-ér-mat-haladó;Matematika;1;Jázmin Lilla
+12.b;12.b-ér-mat-kezdő;Matematika;1;Homoktövis János
+12.b;12.b-haladó;Angol nyelv;3;Narancs Noémi
+12.b;12.b-haladó;Asztali alkalmazások fejlesztése;4;Kökény Miklós
+12.b;12.b-haladó;IKT projektmunka II.;1;Kökény Miklós
+12.b;12.b-haladó;IKT projektmunka II. (JavaScript II.);1;Jázmin János
+12.b;12.b-haladó;IKT projektmunka II. (PHP);1;Jázmin János
+12.b;12.b-haladó;Matematika;4;Jázmin Lilla
+12.b;12.b-haladó;Szakmai angol;3;Mandula Ottó
+12.b;12.b-haladó;Webprogramozás;1;Jázmin János
+12.b;12.b-haladó;Webprogramozás (CMS+webdesign);1;Páfrány Sarolta
+12.b;12.b-kezdő;Angol nyelv;3;Narancs Noémi
+12.b;12.b-kezdő;Asztali alkalmazások fejlesztése;4;Kökény Miklós
+12.b;12.b-kezdő;IKT projektmunka II.;1;Kökény Miklós
+12.b;12.b-kezdő;IKT projektmunka II. (JavaScript II.);1;Üröm Zoltán
+12.b;12.b-kezdő;IKT projektmunka II. (PHP);1;Jázmin János
+12.b;12.b-kezdő;Matematika;4;Homoktövis János
+12.b;12.b-kezdő;Szakmai angol;3;Levendula Noémi
+12.b;12.b-kezdő;Webprogramozás;1;Üröm Zoltán
+12.b;12.b-kezdő;Webprogramozás (CMS+webdesign);1;Páfrány Sarolta
+12.c;;Állampolgári ismeretek;1;Répa Róbert
+12.c;;Irodalom;2;Juhar János
+12.c;;Magyar nyelv;1;Juhar János
+12.c;;Osztályfőnöki;1;Juhar János
+12.c;;Testnevelés;3;Kökény Kata
+12.c;;Történelem;3;Répa Róbert
+12.c;12.c-ér-mat-inf;Matematika;1;Dió Ferenc
+12.c;12.c-ér-mat-ker;Matematika;1;Pünkösdi Piroska
+12.c;12.c-haladó;Angol nyelv;4;Bodza Bálint
+12.c;12.c-haladó;Német nyelv;2;Juhar János
+12.c;12.c-inf;Asztali alkalmazások fejlesztése;4;Mandula Miklós
+12.c;12.c-inf;IKT projektmunka II.;1;Mandula Miklós
+12.c;12.c-inf;IKT projektmunka II. (JavaScript II.);1;Üröm Zoltán
+12.c;12.c-inf;IKT projektmunka II. (PHP);1;Jázmin János
+12.c;12.c-inf;Matematika;3;Dió Ferenc
+12.c;12.c-inf;Szakmai angol;3;Mandula Ottó
+12.c;12.c-inf;Szoftvertesztelés;2;Viola Zoltán
+12.c;12.c-inf;Webprogramozás;1;Üröm Zoltán
+12.c;12.c-inf;Webprogramozás (CMS+webdesign);1;Orgona Ottó
+12.c;12.c-ker;Logisztika alapjai;3,5;Szilva Sarolta
+12.c;12.c-ker;Matematika;3;Pünkösdi Piroska
+12.c;12.c-ker;Projektfeladat;1;Áfonya Andor
+12.c;12.c-ker;Raktározás a gyakorlatban;2;Szilva Sarolta
+12.c;12.c-ker;Szállítmányozási alapok;5;Szilva Sarolta
+12.c;12.c-ker;Szóbeli üzleti kommunikáció idegen nyelven;1,5;Narancs Piroska
+12.c;12.c-ker;Üzleti levelezés idegen nyelven;1;Narancs Piroska
+12.c;12.c-kezdő;Angol nyelv;4;Narancs Piroska
+12.c;12.c-kezdő;Német nyelv;2;Levendula Noémi
+13.a;;Fogyasztóvédelem, fenntarthatóság;2;Fenyő Ferenc
+13.a;;Kis- és középvállalkozások gazdálkodása;4;Citrom Csilla
+13.a;;Kommunikáció a titkári munkában;2;Barack Dóra
+13.a;;Könyvvezetési alapismeretek;2,5;Eper Gréta
+13.a;;Kultúrtörténet;2;Rózsa Róbert
+13.a;;Munkaerő-gazdálkodás;2;Áfonya Andor
+13.a;;Osztályfőnöki;1;Eper Gréta
+13.a;;Titkári ügyintézés;2;Barack Dóra
+13.a;13.a-haladó;Adózási ismeretek;2;Őszirózsa Ottó
+13.a;13.a-haladó;Adózási ismeretek (al);2,5;Fenyő Ferenc
+13.a;13.a-haladó;Angol nyelv;3;Levendula Lilla
+13.a;13.a-haladó;Munkavállalói idegen nyelv gazd;2;Som Sarolta
+13.a;13.a-haladó;Pénzforgalmi nyilvántartások;4;Citrom Csilla
+13.a;13.a-haladó;Szövegbevitel számítógépen;1;Tölgy Tibor
+13.a;13.a-kezdő;Adózási ismeretek;2;Őszirózsa Ottó
+13.a;13.a-kezdő;Adózási ismeretek (al);2,5;Citrom Csilla
+13.a;13.a-kezdő;Angol nyelv;3;Gesztenye Imre
+13.a;13.a-kezdő;Munkavállalói idegen nyelv gazd;2;Bodza Bálint
+13.a;13.a-kezdő;Pénzforgalmi nyilvántartások;4;Citrom Csilla
+13.a;13.a-kezdő;Szövegbevitel számítógépen;1;Füge Hajnalka
+13.b;;Asztali és mobil alkalmazások fejlesztése és tesztelése (alg+tkód);1;Viola Zoltán
+13.b;;Fogyasztóvédelem, fenntarthatóság;2;Fenyő Ferenc
+13.b;;Kultúrtörténet;2;Rózsa Róbert
+13.b;;Osztályfőnöki;1;Levendula Noémi
+13.b;13.b-haladó;Adatbázis-kezelés II.;2;Orgona Ottó
+13.b;13.b-haladó;Asztali alkalmazások fejlesztése;4;Orgona Róbert
+13.b;13.b-haladó;Asztali és mobil alkalmazások fejlesztése és tesztelése (mobilalk);2;Üröm Zoltán
+13.b;13.b-haladó;Backend programozás és tesztelés;4;Orgona Róbert
+13.b;13.b-haladó;Backend programozás és tesztelés (Java);2;Vadrózsa Andor
+13.b;13.b-haladó;Frontend programozás és tesztelés;4;Vadrózsa Andor
+13.b;13.b-haladó;Frontend programozás és tesztelés (HTML);3;Üröm Zoltán
+13.b;13.b-haladó;Munkavállalói idegen nyelv inf;2;Mandula Ottó
+13.b;13.b-kezdő;Angol nyelv;3;Levendula Noémi
+13.b;13.b-kezdő-iskolai;Adatbázis-kezelés II.;2;Nyír Noémi
+13.b;13.b-kezdő-iskolai;Asztali alkalmazások fejlesztése;4;Alma1 Csilla
+13.b;13.b-kezdő-iskolai;Asztali és mobil alkalmazások fejlesztése és tesztelése (mobilalk);2;Orgona Ottó
+13.b;13.b-kezdő-iskolai;Backend programozás és tesztelés;4;Alma1 Csilla
+13.b;13.b-kezdő-iskolai;Backend programozás és tesztelés (Java);2;Vadrózsa Andor
+13.b;13.b-kezdő-iskolai;Frontend programozás és tesztelés;4;Vadrózsa Andor
+13.b;13.b-kezdő-iskolai;Frontend programozás és tesztelés (HTML);3;Üröm Zoltán
+13.b;13.b-kezdő-iskolai;Munkavállalói idegen nyelv inf;2;Gesztenye Imre
+13.c;;Asztali és mobil alkalmazások fejlesztése és tesztelése (alg+tkód);1;Viola Zoltán
+13.c;;Fogyasztóvédelem, fenntarthatóság;2;Fenyő Ferenc
+13.c;;Kultúrtörténet;2;Közismeret Károly
+13.c;;Osztályfőnöki;1;Jázmin János
+13.c;13.c-haladó;Adatbázis-kezelés II.;2;Nyír Noémi
+13.c;13.c-haladó;Asztali alkalmazások fejlesztése;4;Írisz Imre
+13.c;13.c-haladó;Asztali és mobil alkalmazások fejlesztése és tesztelése (mobilalk);2;Üröm Zoltán
+13.c;13.c-haladó;Backend programozás és tesztelés;4;Írisz Imre
+13.c;13.c-haladó;Backend programozás és tesztelés (Java);2;Vadrózsa Andor
+13.c;13.c-haladó;Frontend programozás és tesztelés;4;Jázmin János
+13.c;13.c-haladó;Frontend programozás és tesztelés (HTML);3;Üröm Zoltán
+13.c;13.c-haladó;Munkavállalói idegen nyelv inf;2;Narancs Noémi
+13.c;13.c-kezdő;Adatbázis-kezelés II.;2;Orgona Ottó
+13.c;13.c-kezdő;Angol nyelv;3;Som Sarolta
+13.c;13.c-kezdő;Asztali alkalmazások fejlesztése;4;Írisz Imre
+13.c;13.c-kezdő;Asztali és mobil alkalmazások fejlesztése és tesztelése (mobilalk);2;Orgona Ottó
+13.c;13.c-kezdő;Backend programozás és tesztelés;4;Írisz Imre
+13.c;13.c-kezdő;Backend programozás és tesztelés (Java);2;Vadrózsa Andor
+13.c;13.c-kezdő;Frontend programozás és tesztelés;4;Jázmin János
+13.c;13.c-kezdő;Frontend programozás és tesztelés (HTML);3;Üröm Zoltán
+13.c;13.c-kezdő;Munkavállalói idegen nyelv inf;2;Mandula Ottó
+2/14.a váll;;Adózási ismeretek;2;Fenyő Ferenc
+2/14.a váll;;Dokumentumszerkesztés;1;Barack Dóra
+2/14.a váll;;Kommunikáció a titkári munkában;1;Barack Dóra
+2/14.a váll;;Könyvvezetési alapismeretek;1;Eper Gréta
+2/14.a váll;;Munkavállalói idegen nyelv gazd;2;Narancs Piroska
+2/14.a váll;;Pénzforgalmi nyilvántartások;2;Citrom Csilla
+2/14.a váll;;Portfólió összeállítása;1;Áfonya Andor
+2/14.a váll;;Szakmai idegen nyelv;1;Bodza Bálint
+2/14.a váll;;Szövegbevitel számítógépen;1;Füge Hajnalka
+2/14.a váll;;Titkári ügyintézés;1;Barack Dóra
+2/14.a váll;;Üzleti adminisztráció;0,5;Őszirózsa Ottó
+2/14.a váll;2/14.a váll-iskolai;Adózási ismeretek (al);4;Őszirózsa Ottó
+2/14.a váll;2/14.a váll-iskolai;Dokumentumszerkesztés (al);2;Barack Dóra
+2/14.a váll;2/14.a váll-iskolai;Kis- és középvállalkozások gazdálkodása;5;Fenyő Ferenc
+2/14.a váll;2/14.a váll-iskolai;Könyvvezetési alapismeretek (al);1,5;Eper Gréta
+2/14.a váll;2/14.a váll-iskolai;Munkaerő-gazdálkodás;2;Áfonya Andor
+2/14.a váll;2/14.a váll-iskolai;Pénzforgalmi nyilvántartások (al);2;Citrom Csilla
+2/14.a váll;2/14.a váll-iskolai;Szakmai idegen nyelv (al);1;Bodza Bálint
+2/14.a váll;2/14.a váll-iskolai;Szövegbevitel számítógépen (al);1;Füge Hajnalka
+2/14.a váll;2/14.a váll-iskolai;Titkári ügyintézés (al);2;Barack Dóra
+2/14.a váll;2/14.a váll-iskolai;Üzleti adminisztráció (al);1;Őszirózsa Ottó
+2/14.b szoft;2/14.b szoft-iskolai;Adatbázis-kezelés II.;2,5;Nyír Noémi
+2/14.b szoft;2/14.b szoft-iskolai;Asztali és mobil alkalmazások fejlesztése és tesztelése;4;Írisz Imre
+2/14.b szoft;2/14.b szoft-iskolai;Asztali és mobil alkalmazások fejlesztése és tesztelése (alg+tkód);1;Tulipán Tibor
+2/14.b szoft;2/14.b szoft-iskolai;Asztali és mobil alkalmazások fejlesztése és tesztelése (mobilalk);2;Üröm Zoltán
+2/14.b szoft;2/14.b szoft-iskolai;Backend programozás és tesztelés;4;Írisz Imre
+2/14.b szoft;2/14.b szoft-iskolai;Backend programozás és tesztelés (Java);2;Vadrózsa Andor
+2/14.b szoft;2/14.b szoft-iskolai;Frontend programozás és tesztelés;4;Jázmin János
+2/14.b szoft;2/14.b szoft-iskolai;Frontend programozás és tesztelés (HTML);3;Üröm Zoltán
+2/14.b szoft;2/14.b szoft-iskolai;IKT projektmunka II.;2;Írisz Imre
+2/14.b szoft;2/14.b szoft-iskolai;IKT projektmunka II. (al);1;Informatika István
+2/14.b szoft;2/14.b szoft-iskolai;IKT projektmunka II. (alg+tkód);2;Tulipán Tibor
+2/14.b szoft;2/14.b szoft-iskolai;IKT projektmunka II. (dok);1;Viola Zoltán
+2/14.b szoft;2/14.b szoft-iskolai;IKT projektmunka II. (mobil+Java);2;Orgona Ottó
+2/14.b szoft;2/14.b szoft-iskolai;Munkavállalói idegen nyelv inf;2;Levendula Noémi
+2/14.b szoft;2/14.b szoft-iskolai;Szakmai angol;2,5;Levendula Lilla
+9.a;;Földrajz;1;Áfonya Andor
+9.a;;Gazdasági és jogi alapismeretek;2;Eper Gréta
+9.a;;Gazdasági és jogi alapismeretek (al);1;Citrom Csilla
+9.a;;Honvédelem;1;Homoktövis Hajnalka
+9.a;;Irodalom;3;Hárs Hajnalka
+9.a;;Kommunikáció;1;Barack Dóra
+9.a;;Komplex természettudomány;3;Kardvirág Kata
+9.a;;Magyar nyelv;1;Hárs Hajnalka
+9.a;;Munkavállalói ismeretek gazd;0,5;Barack Dóra
+9.a;;Osztályfőnöki;1;Citrom Csilla
+9.a;;Testnevelés;2;Kökény Kata
+9.a;;Testnevelés (mindennapos_tánc);2;Tánc Teréz
+9.a;;Történelem;3;Répa Róbert
+9.a;9.a-haladó;Angol nyelv;4;Narancs Noémi
+9.a;9.a-haladó;Digitális alkalmazások gazd;2,5;Tölgy Tibor
+9.a;9.a-haladó;Digitális kultúra;2;Páfrány Sarolta
+9.a;9.a-haladó;Matematika;4;Pünkösdi Piroska
+9.a;9.a-kezdő;Angol nyelv;4;Bodza Bálint
+9.a;9.a-kezdő;Digitális alkalmazások gazd;2,5;Füge Hajnalka
+9.a;9.a-kezdő;Digitális kultúra;2;Orgona Ottó
+9.a;9.a-kezdő;Matematika;4;Homoktövis János
+9.b;;Fizika;2;Kardvirág Kata
+9.b;;Honvédelem;1;Homoktövis Hajnalka
+9.b;;Irodalom;3;Hárs Hajnalka
+9.b;;Komplex természettudomány;3;Kardvirág Kata
+9.b;;Magyar nyelv;1;Hárs Hajnalka
+9.b;;Munkavállalói ismeretek inf;0,5;Barack Dóra
+9.b;;Osztályfőnöki;1;Ibolya Kata
+9.b;;Testnevelés;2;Páfrány Piroska
+9.b;;Testnevelés (mindennapos_tánc);2;Tánc Teréz
+9.b;;Történelem;3;Datolya Dóra
+9.b;9.b-haladó;Angol nyelv;4;Mandula Ottó
+9.b;9.b-haladó;Digitális kultúra;1;Páfrány Sarolta
+9.b;9.b-haladó;IKT projektmunka I.;1,5;Egérfarkfű Elemér
+9.b;9.b-haladó;Informatikai és távközlési alapok I.;1;Ibolya Imre
+9.b;9.b-haladó;Informatikai és távközlési alapok I. (ita);2;Mandula Miklós
+9.b;9.b-haladó;Matematika;4;Ibolya Kata
+9.b;9.b-haladó;Programozási alapok;2;Egérfarkfű Elemér
+9.b;9.b-kezdő;Angol nyelv;4;Som Sarolta
+9.b;9.b-kezdő;Digitális kultúra;1;Orgona Ottó
+9.b;9.b-kezdő;IKT projektmunka I.;1,5;Egérfarkfű Elemér
+9.b;9.b-kezdő;Informatikai és távközlési alapok I.;1;Ibolya Imre
+9.b;9.b-kezdő;Informatikai és távközlési alapok I. (ita);2;Orgona Ottó
+9.b;9.b-kezdő;Matematika;4;Ibolya Kata
+9.b;9.b-kezdő;Programozási alapok;2;Egérfarkfű Elemér
+9.c;;Honvédelem;1;Homoktövis Hajnalka
+9.c;;Irodalom;3;Gyöngyvirág Gréta
+9.c;;Komplex természettudomány;3;Kardvirág Kata
+9.c;;Magyar nyelv;1;Gyöngyvirág Gréta
+9.c;;Munkavállalói ismeretek;0,5;Barack Dóra
+9.c;;Osztályfőnöki;1;Datolya Dóra
+9.c;;Testnevelés;2;Páfrány Piroska
+9.c;;Testnevelés (mindennapos);2;Páfrány Piroska
+9.c;;Történelem;3;Datolya Dóra
+9.c;9.c-haladó;Angol nyelv;4;Levendula Noémi
+9.c;9.c-haladó;Német nyelv;2;Liliom Lilla
+9.c;9.c-inf;Digitális kultúra;1;Orgona Ottó
+9.c;9.c-inf;IKT projektmunka I.;1,5;Kökény Miklós
+9.c;9.c-inf;Informatikai és távközlési alapok I.;1;Ibolya Imre
+9.c;9.c-inf;Informatikai és távközlési alapok I. (ita);2;Egérfarkfű Elemér
+9.c;9.c-inf;Matematika;4;Homoktövis János
+9.c;9.c-inf;Programozási alapok;2;Kökény Miklós
+9.c;9.c-ker;Digitális alkalmazások ker;2,5;Füge Hajnalka
+9.c;9.c-ker;Digitális kultúra;1;Páfrány Sarolta
+9.c;9.c-ker;Gazdasági ismeretek;3;Eper Gréta
+9.c;9.c-ker;Kommunikáció;1;Barack Dóra
+9.c;9.c-ker;Matematika;4;Ibolya Kata
+9.c;9.c-kezdő;Angol nyelv;4;Levendula Lilla
+9.c;9.c-kezdő;Német nyelv;2;Liliom Lilla
+9/NY;;Képességfejlesztés (magyar nyelv és irodalom);1;Gyöngyvirág Gréta
+9/NY;;Képességfejlesztés (történelem);1;Répa Róbert
+9/NY;;Osztályfőnöki;1;Mandula Miklós
+9/NY;;Testnevelés;3;Kökény Kata
+9/NY;;Testnevelés (mindennapos_tánc);2;Tánc Teréz
+9/NY;9/NY-haladó;Angol nyelv;7;Narancs Noémi
+9/NY;9/NY-haladó;Angol nyelv (al);6;Levendula Lilla
+9/NY;9/NY-haladó;Német nyelv;5;Juhar János
+9/NY;9/NY-inf;Digitális kultúra;2;Mandula Miklós
+9/NY;9/NY-inf;Digitális kultúra (gépír);1;Füge Hajnalka
+9/NY;9/NY-inf;Képességfejlesztés (gépírás);1;Füge Hajnalka
+9/NY;9/NY-inf;Képességfejlesztés (matematika);1;Pünkösdi Piroska
+9/NY;9/NY-inf;Tanulásmódszertan;1;Répa Róbert
+9/NY;9/NY-ker;Digitális kultúra;3;Páfrány Sarolta
+9/NY;9/NY-ker;Képességfejlesztés (gépírás);1;Füge Hajnalka
+9/NY;9/NY-ker;Képességfejlesztés (matematika);1;Közismeret Károly
+9/NY;9/NY-ker;Tanulásmódszertan;1;Barack Dóra
+9/NY;9/NY-kezdő;Angol nyelv;7;Bodza Bálint
+9/NY;9/NY-kezdő;Angol nyelv (al);6;Narancs Piroska
+9/NY;9/NY-kezdő;Német nyelv;5;Liliom Lilla
