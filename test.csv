@@ -1,7 +1,33 @@
 SchoolClassId;Grade;Section;AcademicYear;Track;StudentCount;GroupCount;IsGraduating
+9.a;9;a;2025/2026;Gimn·zium - ·ltal·nos;30;2;False
+9.b;9;b;2025/2026;Technikum - informatika;28;2;False
+10.a;10;a;2025/2026;Gimn·zium - emelt;31;2;False
+10.b;10;b;2025/2026;Gimn·zium - ·ltal·nos;29;2;False
+11.a;11;a;2025/2026;Gimn·zium - emelt;30;3;False
+11.b;11;b;2025/2026;Technikum - gÈpÈszet;26;2;False
+12.a;12;a;2025/2026;Gimn·zium - emelt;27;3;True
+12.b;12;b;2025/2026;Gimn·zium - ·ltal·nos;32;2;True
 9.········································;9;········································;2025/2026;Gimn·zium - ·ltal·nos;30;2;False
 10.·;10;·;2025/2026;Gimn·zium - emelt;31;2;False
 11.c;11;c;2025/2026;Technikum - informatika;38;3;False
 11.d;11;d;2025/2026;Technikum - gÈpÈszet;10;1;False
 12.e;12;e;2027/2028;Gimn·zium - ·ltal·nos;28;2;True
 5.a;5;a;2025/2026;¡ltal·nos iskola;26;2;False
+9.a;9;a;2025/2026;Gimn·zium - ·ltal·nos;28;2;False
+9.b;9;b;2025/2026;Gimn·zium - emelt;27;2;False
+10.a;10;a;2025/2026;Gimn·zium - ·ltal·nos;34;3;False
+10.b;10;b;2025/2026;Gimn·zium - ·ltal·nos;33;3;False
+10.c;10;c;2025/2026;Technikum - gÈpÈszet;24;2;False
+11.a;11;a;2025/2026;Gimn·zium - ·ltal·nos;27;2;False
+11.b;11;b;2025/2026;Gimn·zium - emelt;32;3;False
+12.a;12;a;2025/2026;Gimn·zium - emelt;34;3;True
+12.b;12;b;2025/2026;Technikum - gÈpÈszet;27;2;True
+9.a;9;a;2025/2026;Gimn·zium - ·ltal·nos;-5;2;False
+10.b;10;b;2025/2026;Gimn·zium - emelt;harminc;2;False
+11.c;11;c;2025/2026;Technikum - informatika;30;2;False
+11.c;11;c;2025/2026;Technikum - gÈpÈszet;31;2;False
+12.d;12;d;2026-2027;Gimn·zium - ·ltal·nos;29;2;True
+12.e;12;e;2025/2026;Gimn·zium - emelt;28;2
+9;a;2025/2026;Gimn·zium - ·ltal·nos;30;2
+12;b;2025/2026;Gimn·zium - emelt;27;3
+11;C;2025/2026;Technikum - informatika;32;3

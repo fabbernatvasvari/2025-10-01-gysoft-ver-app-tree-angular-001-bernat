@@ -1,45 +1,56 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+
 namespace CsvOpener
 {
     public class Opener
     {
         List<string> SchoolClassId = new List<string>();
-        List<int> Grade = new List<int>();
+        List<string> Grade = new List<string>();
         List<string> Section = new List<string>();
         List<string> AcademicYear = new List<string>();
         List<string> Track = new List<string>();
-        List<int> StudentCount = new List<int>();
-        List<int> GroupCount = new List<int>();
-        List<bool> IsGraduating = new List<bool>();
+        List<string> StudentCount = new List<string>();
+        List<string> GroupCount = new List<string>();
+        List<string> IsGraduating = new List<string>();
 
         public Opener()
         {
-            using (var reader = new StreamReader(@"C:\VSCodeProjects\VasvariTanarErtekeloRendszer\Angular\gysoft-ver-app-tree-angular-001-bernat\test.csv"))
+            string path = @"C:\VSCodeProjects\VasvariTanarErtekeloRendszer\Angular\gysoft-ver-app-tree-angular-001-bernat\test.csv";
+
+            if (!File.Exists(path))
+            {
+                throw new FileNotFoundException("The specified CSV file was not found.", path);
+            }
+
+            using (var reader = new StreamReader(path, Encoding.UTF8))
             {
                 if (reader == null)
                 {
                     throw new FileNotFoundException("The specified CSV file was not found.");
                 }
+
+                reader.ReadLine(); // Skip header line
+
                 while (!reader.EndOfStream)
                 {
-                    reader.ReadLine(); // Skip header line
-
                     var line = reader.ReadLine();
                     if (line == null)
-                    {
-                        continue; // Skip if the line is null
-                    }
+                        continue;
+                    
                     var values = line.Split(';');
                     if (values.Length >= 8)
                     {
                         SchoolClassId.Add(values[0]);
-                        Grade.Add(int.Parse(values[1]));
+                        Grade.Add(values[1]);
                         Section.Add(values[2]);
                         AcademicYear.Add(values[3]);
                         Track.Add(values[4]);
-                        StudentCount.Add(int.Parse(values[5]));
-                        GroupCount.Add(int.Parse(values[6]));
-                        IsGraduating.Add(bool.Parse(values[7]));
+                        StudentCount.Add(values[5]);
+                        GroupCount.Add(values[6]);
+                        IsGraduating.Add(values[7]);
                     }
                 }
             }
@@ -47,12 +58,12 @@ namespace CsvOpener
 
         public override string ToString()
         {
-            string result = "";
+            var sb = new StringBuilder();
             for (int i = 0; i < SchoolClassId.Count; i++)
             {
-                result += $"{SchoolClassId[i]}, {Grade[i]}, {Section[i]}, {AcademicYear[i]}, {Track[i]}, {StudentCount[i]}, {GroupCount[i]}, {IsGraduating[i]}\n";
+                sb.AppendLine($"SchoolClassId: {SchoolClassId[i]}, Grade: {Grade[i]}, Section: {Section[i]}, AcademicYear: {AcademicYear[i]}, Track: {Track[i]}, StudentCount: {StudentCount[i]}, GroupCount: {GroupCount[i]}, IsGraduating: {IsGraduating[i]}");
             }
-            return result;
+            return sb.ToString();
         }
     }
 }
