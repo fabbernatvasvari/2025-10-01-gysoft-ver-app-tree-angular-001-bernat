@@ -1,0 +1,4 @@
+Filter_Grade;Filter_Track;SortBy;SortDir;Page;PageSize
+12;Gimnázium - emelt;StudentCount;desc;1;10
+9;;SchoolClassId;asc;1;20
+;Technikum - informatika;Grade;asc;2;15

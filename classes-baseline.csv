@@ -1,0 +1,9 @@
+SchoolClassId;Grade;Section;AcademicYear;Track;StudentCount;GroupCount;IsGraduating
+9.a;9;a;2025/2026;Gimnázium - általános;30;2;False
+9.b;9;b;2025/2026;Technikum - informatika;28;2;False
+10.a;10;a;2025/2026;Gimnázium - emelt;31;2;False
+10.b;10;b;2025/2026;Gimnázium - általános;29;2;False
+11.a;11;a;2025/2026;Gimnázium - emelt;30;3;False
+11.b;11;b;2025/2026;Technikum - gépészet;26;2;False
+12.a;12;a;2025/2026;Gimnázium - emelt;27;3;True
+12.b;12;b;2025/2026;Gimnázium - általános;32;2;True
