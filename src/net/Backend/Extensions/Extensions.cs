@@ -1,5 +1,8 @@
-﻿using MyApp.Backend.Context;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using MyApp.Backend.Context;
+using MyApp.Backend.Datas.Entities;
+using MyApp.Backend.Repo;
+using MyApp.Backend.Repo.Base;
 
 namespace MyApp.Backend.Extensions
 {
@@ -10,7 +13,8 @@ namespace MyApp.Backend.Extensions
             services.ConfigureCors()
                 .ConfigureInMemoryContext()
                 .ConfigureMySqlContext()
-                .ConfigureSqliteContext();
+                .ConfigureSqliteContext()
+                .ConfigureRepos();
 
         }
 
@@ -58,6 +62,19 @@ namespace MyApp.Backend.Extensions
                 options => options.UseSqlite($"Data Source={dbPath}")
             );
             return services;
+        }
+
+        public static void ConfigureRepos(this IServiceCollection services)
+        {
+            services.AddScoped<ITeacherRepo, TeacherRepo<AppInMemoryContext>>();
+            services.AddScoped<IBaseRepo<Teacher>, TeacherRepo<AppInMemoryContext>>();
+
+            // egyszerűbb 
+            // services.AddScoped<ITeacherRepo, TeacherRepo<AppInMemoryContext>>();
+            // services.AddScoped<IBaseRepo<Teacher>>(sp => sp.GetRequiredService<ITeacherRepo>());
+
+
+
         }
     }
 }
