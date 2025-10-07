@@ -6,5 +6,10 @@ namespace MyApp.Backend.Repo.Base
     public class TeacherRepo<TDbContext> : BaseRepo<TDbContext,Teacher>, ITeacherRepo where TDbContext : Context.AppContext
     {
         public TeacherRepo(TDbContext dbContext) : base(dbContext) {}
+
+        public int Count()
+        {
+            return _dbSet!.Count();
+        }
     }
 }
