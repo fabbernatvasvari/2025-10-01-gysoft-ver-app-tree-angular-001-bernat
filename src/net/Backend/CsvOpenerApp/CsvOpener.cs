@@ -1,17 +1,7 @@
 ﻿using System;
 namespace CsvOpener
 {
-    public class Main
-    {
-        public static void Main(string[] args)
-        {
-            CsvOpener csvOpener = new CsvOpener();
-            Console.WriteLine(csvOpener);
-        }
-    }
-
-
-    class CsvOpener
+    public class Opener
     {
         List<string> SchoolClassId = new List<string>();
         List<int> Grade = new List<int>();
@@ -22,18 +12,23 @@ namespace CsvOpener
         List<int> GroupCount = new List<int>();
         List<bool> IsGraduating = new List<bool>();
 
-        public CsvOpener()
+        public Opener()
         {
             using (var reader = new StreamReader(@"C:\VSCodeProjects\VasvariTanarErtekeloRendszer\Angular\gysoft-ver-app-tree-angular-001-bernat\test.csv"))
             {
-
-
-
+                if (reader == null)
+                {
+                    throw new FileNotFoundException("The specified CSV file was not found.");
+                }
                 while (!reader.EndOfStream)
                 {
                     reader.ReadLine(); // Skip header line
 
                     var line = reader.ReadLine();
+                    if (line == null)
+                    {
+                        continue; // Skip if the line is null
+                    }
                     var values = line.Split(';');
                     if (values.Length >= 8)
                     {
