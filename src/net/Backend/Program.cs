@@ -52,11 +52,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 // Cors
-<<<<<<< HEAD
-app.UseCors("KretaCors"); // "AllowFrontendApp" vagy "AllowForeignOrigin" jobb név lenne a paraméternek
-=======
-app.UseCors("MyAppCors");
->>>>>>> c2805dde624bde7d3507ac521c5d594048a8835c
+app.UseCors("KretaCors");
 
 app.UseAuthorization();
 

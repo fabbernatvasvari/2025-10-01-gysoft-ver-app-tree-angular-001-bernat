@@ -25,7 +25,7 @@ namespace MyApp.Backend.Extensions
                  option.AddPolicy(name: "KretaCors",
                      policy =>
                      {
-                         policy.WithOrigins("https://localhost:7020/")
+                         policy.WithOrigins("http://localhost:5173")
                              .AllowAnyHeader()
                              .AllowAnyMethod();
                      }
