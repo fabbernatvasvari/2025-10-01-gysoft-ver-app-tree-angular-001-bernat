@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MyApp.Console.src.utils
+{
+    internal class CommandHandler
+    {
+        internal static void HandleCommand(string command)
+        {
+            System.Console.WriteLine("Handled command: " + command); 
+        }
+    }
+}
