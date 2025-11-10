@@ -32,7 +32,7 @@ internal class App
 
             if (string.Equals(command, "help", StringComparison.OrdinalIgnoreCase))
             {
-                Program.Log(string.Join(" ", ValidCommands.ISOValidCommands));
+                Program.Log($"Valid commands: `{ string.Join(", ", ValidCommands.ISOValidCommands)}`");
                 continue;
             }
 
