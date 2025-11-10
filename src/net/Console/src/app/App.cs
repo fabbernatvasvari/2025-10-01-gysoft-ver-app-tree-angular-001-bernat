@@ -23,26 +23,31 @@ internal class App
             Console.Write("> ");
             string command = Console.ReadLine()?.Trim();
 
-            if (string.Equals(command, "exit", StringComparison.OrdinalIgnoreCase) ||
-                string.Equals(command, "quit", StringComparison.OrdinalIgnoreCase))
+            if (string.IsNullOrEmpty(command))
+                continue;
+
+            if (command.StartsWith("exit", StringComparison.OrdinalIgnoreCase) ||
+                command.StartsWith("quit", StringComparison.OrdinalIgnoreCase))
             {
                 Program.Log("Exiting the program...");
                 return;
             }
 
-            if (string.Equals(command, "help", StringComparison.OrdinalIgnoreCase))
+            if (command.StartsWith("help", StringComparison.OrdinalIgnoreCase))
             {
                 Program.Log($"Valid commands: `{ string.Join(", ", ValidCommands.ISOValidCommands)}`");
                 continue;
             }
 
-            if (ValidCommands.ISOValidCommands.Contains(command)) {
+            if (ValidCommands.ISOValidCommands.Any(
+                valid => command.StartsWith(valid, StringComparison.OrdinalIgnoreCase)))
+            {
                 try
                 {
                     CommandHandler.HandleCommand(command);
                     continue;
                 } catch (Exception ex) {
-                    Console.WriteLine("An exception occurred: ", ex);
+                    Console.WriteLine("An exception occurred: ", ex, ex.Message);
                 }
             }
 
