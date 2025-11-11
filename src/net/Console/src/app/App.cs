@@ -33,9 +33,10 @@ internal class App
                 return;
             }
 
-            if (command.StartsWith("help", StringComparison.OrdinalIgnoreCase))
+            if (command.StartsWith("help", StringComparison.OrdinalIgnoreCase) ||
+                    (command.Equals("ls", StringComparison.OrdinalIgnoreCase)))
             {
-                Program.Log($"Valid commands: `{ string.Join(", ", ValidCommands.ISOValidCommands)}`");
+                Program.Log($"Valid commands: `{string.Join(", ", ValidCommands.ISOValidCommands)}`");
                 continue;
             }
 
@@ -46,7 +47,9 @@ internal class App
                 {
                     CommandHandler.HandleCommand(command);
                     continue;
-                } catch (Exception ex) {
+                }
+                catch (Exception ex)
+                {
                     Console.WriteLine("An exception occurred: ", ex, ex.Message);
                 }
             }

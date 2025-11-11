@@ -13,7 +13,9 @@ namespace MyApp.Console.src.utils
             {
                 "results",
                 "teachers",
-                "students"
+                "students",
+                "create",
+                "terminate"
             };
     }
 }
