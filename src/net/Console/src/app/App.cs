@@ -36,13 +36,14 @@ internal class App
             if (command.StartsWith("help", StringComparison.OrdinalIgnoreCase) ||
                     (command.Equals("ls", StringComparison.OrdinalIgnoreCase)))
             {
-                Program.Log($"Valid commands: `{string.Join(", ", ValidCommands.ISOValidCommands)}`");
+                Program.Log($"Valid commands: `{string.Join(", ", ValidCommands.AllCommands)}`");
                 continue;
             }
 
-            if (ValidCommands.ISOValidCommands.Any(
+            if (ValidCommands.AllCommands.Any(
                 valid => command.StartsWith(valid, StringComparison.OrdinalIgnoreCase)))
             {
+                Program.Log("Handling command: " + command);
                 try
                 {
                     CommandHandler.HandleCommand(command);

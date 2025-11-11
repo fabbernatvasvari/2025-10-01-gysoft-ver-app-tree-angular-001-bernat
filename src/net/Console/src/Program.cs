@@ -6,6 +6,7 @@ internal class Program
     {
         Console.WriteLine(message);
     }
+
     private static void Main(string[] args)
     {
         App app = new App();

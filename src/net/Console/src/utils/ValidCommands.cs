@@ -8,7 +8,7 @@ namespace MyApp.Console.src.utils
 {
     internal class ValidCommands
     {
-        public static readonly HashSet<string> ISOValidCommands =
+        public static readonly HashSet<string> AllCommands =
             new HashSet<string>(StringComparer.OrdinalIgnoreCase)
             {
                 "results",

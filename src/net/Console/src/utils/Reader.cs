@@ -8,6 +8,7 @@ namespace MyApp.Console.src.utils
     {
         static string teachersCsvPath = @"D:\MixedProjects\251107-gysoft-ver-app-bernat-egyeni\adatbazis\tesztadatok\tanarok.csv";
         static string testDataCsvPath = @"D:\MixedProjects\251107-gysoft-ver-app-bernat-egyeni\adatbazis\tesztadatok\tesztadatok.csv";
+
         internal static void ReadCsv(string command)
         {
             string csvContent = string.Empty;
