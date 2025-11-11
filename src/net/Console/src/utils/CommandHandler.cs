@@ -10,7 +10,11 @@ namespace MyApp.Console.src.utils
     {
         internal static void HandleCommand(string command)
         {
-            System.Console.WriteLine("Handled command: " + command); 
+            if (command == "teachers" || command == "results")
+            {
+                Reader.ReadCsv("teachers.csv");
+            }
+            System.Console.WriteLine("Executed command: " + command); 
         }
     }
 }
