@@ -18,8 +18,8 @@ internal class App
 
         while (true)
         {
-            WaitSeconds(2);
-            Program.Log("The app is still running");
+            // WaitSeconds(2);
+            // Program.Log("The app is still running");
             Console.Write("> ");
             string command = Console.ReadLine()?.Trim();
 
@@ -46,7 +46,10 @@ internal class App
                 Program.Log("Handling command: " + command);
                 try
                 {
-                    CommandHandler.HandleCommand(command);
+                    while (!CommandHandler.HandleCommand(command))
+                    {
+
+                    }
                     continue;
                 }
                 catch (Exception ex)
