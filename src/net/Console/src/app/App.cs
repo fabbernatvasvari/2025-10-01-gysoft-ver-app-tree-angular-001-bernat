@@ -13,8 +13,8 @@ internal class App
 
     internal void Start()
     {
-        Program.Log($"Welcome back \"{Environment.UserName}\" to the VER App Cli! Enter a command or type `help` to see valid commands.");
-        Program.Log("Type `exit` or `quit` to exit the program.");
+        Program.Log(I18n.T("Welcome", Environment.UserName));
+        Program.Log(I18n.T("ExitHint"));
 
         while (true)
         {
@@ -29,21 +29,21 @@ internal class App
             if (command.StartsWith("exit", StringComparison.OrdinalIgnoreCase) ||
                 command.StartsWith("quit", StringComparison.OrdinalIgnoreCase))
             {
-                Program.Log("Exiting the program...");
+                Program.Log(I18n.T("Exiting"));
                 return;
             }
 
             if (command.StartsWith("help", StringComparison.OrdinalIgnoreCase) ||
                     (command.Equals("ls", StringComparison.OrdinalIgnoreCase)))
             {
-                Program.Log($"Valid commands: `{string.Join(", ", ValidCommands.AllCommands)}`");
+                Program.Log(I18n.T("ValidCommands") + string.Join(", ", ValidCommands.AllCommands));
                 continue;
             }
 
             if (ValidCommands.AllCommands.Any(
                 valid => command.StartsWith(valid, StringComparison.OrdinalIgnoreCase)))
             {
-                Program.Log("Handling command: " + command);
+                Program.Log(I18n.T("HandlingCommand") + command);
                 try
                 {
                     while (!CommandHandler.HandleCommand(command))
@@ -54,11 +54,11 @@ internal class App
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("An exception occurred: ", ex, ex.Message);
+                    Console.WriteLine(I18n.T("ExceptionOccurred"), ex, ex.Message);
                 }
             }
 
-            Program.Log($"Invalid command: {command}");
+            Program.Log(I18n.T("InvalidCommand"));
         }
     }
 }

@@ -59,5 +59,68 @@ namespace MyApp.Console.src.resources {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Egy kivétel keletkezett: .
+        /// </summary>
+        internal static string ExceptionOccurred {
+            get {
+                return ResourceManager.GetString("ExceptionOccurred", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kilépéshez írd be: `exit` vagy `quit`..
+        /// </summary>
+        internal static string ExitHint {
+            get {
+                return ResourceManager.GetString("ExitHint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kilépés a programból....
+        /// </summary>
+        internal static string Exiting {
+            get {
+                return ResourceManager.GetString("Exiting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Parancs kezelése:.
+        /// </summary>
+        internal static string HandlingCommand {
+            get {
+                return ResourceManager.GetString("HandlingCommand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ismeretlen parancs: {0}.
+        /// </summary>
+        internal static string InvalidCommand {
+            get {
+                return ResourceManager.GetString("InvalidCommand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Érvényes parancsok: `{0}`.
+        /// </summary>
+        internal static string ValidCommands {
+            get {
+                return ResourceManager.GetString("ValidCommands", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Üdv újra &quot;{0}&quot;! Ez a VER App CLI. Írj be egy parancsot vagy `help`-et a lehetőségekhez..
+        /// </summary>
+        internal static string Welcome {
+            get {
+                return ResourceManager.GetString("Welcome", resourceCulture);
+            }
+        }
     }
 }
